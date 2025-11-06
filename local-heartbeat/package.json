@@ -1,0 +1,19 @@
+{
+  "name": "local-heartbeat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@azure/msal-node": "^3.8.1",
+    "dotenv": "^17.2.3",
+    "msal": "^1.4.18",
+    "node-fetch": "^2.7.0"
+  }
+}
