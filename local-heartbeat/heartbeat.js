@@ -109,7 +109,7 @@ async function sendTeamsMessage(text) {
     const t = await resp.text();
     console.warn(`⚠ 发送 Teams 消息失败: HTTP ${resp.status}\n${t.slice(0, 300)}`);
   } else {
-    console.log("✅ Teams 通知已发送");
+    console.log("✅ Teams 通知已发送 ，请查收!");
   }
 }
 
@@ -230,7 +230,7 @@ async function callGraph(accessToken) {
     await callGraph(token);
     console.log("✅ 本次 VS Code 本地心跳（OneDrive + 邮件 + 日历 + Teams）完成。");
   } catch (err) {
-    console.error("❌ 发生错误：", err.message);
+    console.error("❌ 发生错误发生错误！！！：", err.message);
     process.exit(1);
   }
 })();
